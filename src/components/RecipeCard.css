@@ -1,0 +1,30 @@
+.recipe-card {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add smooth hover effect */
+}
+
+.recipe-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recipe-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333; /* Darker text color for readability */
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
